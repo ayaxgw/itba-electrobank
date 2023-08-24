@@ -1,0 +1,65 @@
+/* Estilos para el encabezado */
+/* Estilos para el encabezado */
+.encabezado {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    color: #777;
+}
+
+.encabezado .logo {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para el menú lateral */
+.menu-lateral {
+    background-color: #333;
+    color: #fff;
+    width: 240px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.menu-lateral ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-lateral ul li {
+    padding: 10px;
+}
+
+.menu-lateral ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-lateral ul li a:hover {
+    background-color: #555;
+}
+
+/* Estilos para el contenido */
+main {
+    margin-left: 260px;
+    padding: 20px;
+    z-index: 0;
+    background-color: #fff;
+    color: #777;
+}
+
+/* Estilos para el pie de página */
+footer {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    color: #777;
+}
+ul {
+    list-style: none;
+}
